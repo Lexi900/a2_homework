@@ -1,0 +1,121 @@
+.jumbotron {
+    color: white;
+    background-image: url("/assets/b1.jpg");
+    /* 通常導入的圖片是向左上對齊，所以接下來要開始調整圖片*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* 左右拉屏幕的時候，背景圖是要repeat還是跑出背景色 */
+    background-position: 30% 60%;
+    height: 50vh;
+    /* vh:viewport height */
+}
+.row{
+    height:50vh;
+}
+
+#first {
+    background-image: url("/assets/st_change_text.jpg");
+    min-height: 1500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* css proverty 如果只有一張圖，用同一張圖做，可以改灰度、色相、膠片等 */
+    filter: brightness(2);
+}
+
+#second {
+    background-image: url("/assets/st_or_text.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#third {
+    background-image: url("/assets/st1.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#forth {
+    background-image: url("/assets/st1.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fifth {
+    background-image: url("/assets/b1.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sixth {
+    background-image: url("/assets/history-ma2.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seventh {
+    background-image: url("/assets/history-ma1.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#eighth{
+    background-image: url("/assets/history-ma3.jpg");
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 80% 5%;
+    background-size: cover;
+}
+
+#ninth {
+    background-image: url("/assets/b1.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tenth {
+    background-image: url("/assets/b1.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#eve{
+    background-image: url("/assets/b2.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#twe{
+    background-image: url("/assets/future.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
